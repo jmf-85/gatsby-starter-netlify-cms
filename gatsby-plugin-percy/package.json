@@ -1,0 +1,66 @@
+{
+  "_from": "gatsby-plugin-percy",
+  "_id": "gatsby-plugin-percy@0.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-bzoGJOgmoGzqhZsDaaAVh9mhSrsRHiTnWa0+JfIgI/MZiHc6xzX3TcCn5C3FXdCDY46K6HqPQ0Sl6X7/Zu/nbg==",
+  "_location": "/gatsby-plugin-percy",
+  "_phantomChildren": {
+    "isexe": "2.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gatsby-plugin-percy",
+    "name": "gatsby-plugin-percy",
+    "escapedName": "gatsby-plugin-percy",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-plugin-percy/-/gatsby-plugin-percy-0.1.4.tgz",
+  "_shasum": "628b15dae0917a3adbc91b9ed900d30e7f56be2f",
+  "_spec": "gatsby-plugin-percy",
+  "_where": "/Users/app-l107",
+  "author": {
+    "name": "Perceptual Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/percy/gatsby-plugin-percy/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "which": "^2.0.2"
+  },
+  "deprecated": false,
+  "description": "A Gatsby plugin for automatically taking Percy snapshots after a build.",
+  "devDependencies": {
+    "expect": "^25.1.0",
+    "mocha": "^7.0.0",
+    "mock-require": "^3.0.0"
+  },
+  "homepage": "https://github.com/percy/gatsby-plugin-percy#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "percy",
+    "visual",
+    "screenshot"
+  ],
+  "license": "MIT",
+  "name": "gatsby-plugin-percy",
+  "peerDependencies": {
+    "@percy/agent": "^0.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/percy/gatsby-plugin-percy.git"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "version": "0.1.4"
+}
