@@ -48,3 +48,64 @@
     "prettier": "^2.0.5"
   }
 }
+{
+  "_from": "@percy/script",
+  "_id": "@percy/script@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ZocGi2Kf921FzN5ASViWy21L8rRN2aO+JokVoRqPGd49Ykks5KVx8FRPV49lIKKeBIv9wnrL147ZqrkRGI4tkQ==",
+  "_location": "/@percy/script",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@percy/script",
+    "name": "@percy/script",
+    "escapedName": "@percy%2fscript",
+    "scope": "@percy",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@percy/script/-/script-1.1.0.tgz",
+  "_shasum": "52bc91d774d576a01f663c6f0e158a59181f9a75",
+  "_spec": "@percy/script",
+  "_where": "/Users/app-l107",
+  "author": {
+    "name": "Perceptual Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/percy/percy-script/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@percy/agent": "~0"
+  },
+  "deprecated": false,
+  "description": "PercyScript is the easiest way to get started with visual testing and Percy.",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "snapshot.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/percy/percy-script#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@percy/script",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/percy/percy-script.git"
+  },
+  "scripts": {
+    "test": "percy exec -- node ./test/index.js"
+  },
+  "version": "1.1.0"
+}
+
